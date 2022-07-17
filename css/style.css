@@ -1,0 +1,81 @@
+body {
+    background-color: #77fff8;
+}
+
+h1 {
+    font-size: 3rem;
+    color: #000;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card {
+    width: 330px;
+    height: 275px;
+    background-color: #0a0a0a94;
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.colorSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0 25px;
+}
+
+#inputColor {
+    height: 40px;
+}
+
+#inputText {
+    background-color: #fff;
+    height: 32px;
+    margin-left: 10px;
+}
+
+button {
+    background-color: #fff;
+    border: none;
+    padding: 15px;
+    cursor: pointer;
+}
+
+button:nth-child(2) {
+    margin-left: 20px;
+}
+
+#demo {
+    background-color: #151d31;
+    color: #fff;
+    padding: 5px 10px;
+    font-family: 'Poppins', sans-serif;
+    opacity: 0;
+}
+
+@media screen and (max-width: 767px) {
+    h1 {
+        font-size: 2.3rem;
+    }
+
+    .card {
+        width: 235px;
+        height: 230px;
+        padding: 25px;
+    }
+
+    button {
+        padding: 10px;
+    }
+}

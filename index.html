@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./manifest.json">
+    <link rel="apple-touch-icon" href="./images/icons/72.png">
+    <link rel="apple-touch-icon" href="./images/icons/76.png">
+    <link rel="apple-touch-icon" href="./images/icons/80.png">
+    <link rel="apple-touch-icon" href="./images/icons/87.png">
+    <link rel="apple-touch-icon" href="./images/icons/100.png">
+    <link rel="apple-touch-icon" href="./images/icons/114.png">
+    <link rel="apple-touch-icon" href="./images/icons/120.png">
+    <link rel="apple-touch-icon" href="./images/icons/128.png">
+    <link rel="apple-touch-icon" href="./images/icons/144.png">
+    <link rel="apple-touch-icon" href="./images/icons/152.png">
+    <link rel="apple-touch-icon" href="./images/icons/167.png">
+    <link rel="apple-touch-icon" href="./images/icons/180.png">
+    <link rel="apple-touch-icon" href="./images/icons/192.png">
+    <link rel="apple-touch-icon" href="./images/icons/256.png">
+    <link rel="apple-touch-icon" href="./images/icons/512.png">
+    <link rel="apple-touch-icon" href="./images/icons/1024.png">
+    <meta name="theme-color" content="#0D1117">
+    <title>PWA</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <h1>Color Picker</h1>
+    <div class="main">
+      <div class="card">
+        <div class="colorSection">
+          <input type="color" value="#e0ffee" id="inputColor" />
+          <input type="text" value="#e0ffee" id="inputText" disabled />
+        </div>
+        <div class="btn">
+          <button id="getHEX" onClick="colorFunc()">Get HEX Code</button>
+          <button id="copyHEX" onClick="copy()">Copy Code</button>
+        </div>
+        <p id="demo"></p>
+      </div>
+    </div>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
